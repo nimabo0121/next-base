@@ -1,0 +1,21 @@
+.on {
+  /* 利用css 的變數來套用袁建中的動態fillColor屬性值 */
+  color: var(--fill-color);
+}
+
+.off {
+  /* 利用css 的變數來套用袁建中的動態emptyColor屬性值 */
+  color: var(--empty-color);
+  
+}
+
+.good-style{
+  color:red;
+}
+
+.starBtn{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
